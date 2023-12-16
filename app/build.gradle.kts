@@ -28,6 +28,7 @@ android {
      *  keyAlias=key0
      *
      *  // change this keystore to yours
+     *  // dont forget to add this file to .gitignore
      *  storeFile=../keystore/debug.keystore
      */
 
