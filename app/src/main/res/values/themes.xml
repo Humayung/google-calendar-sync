@@ -1,0 +1,145 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ThemeSwitcher.Light" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/light_primary</item>
+        <item name="colorPrimaryContainer">@color/light_primaryContainer</item>
+        <item name="colorSecondaryContainer">@color/light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/light_onSecondaryContainer</item>
+        <item name="colorPrimaryDark">@color/light_primary</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorOutline">@color/light_primaryContainer</item>
+        <item name="colorSecondary">@color/light_primary</item>
+        <item name="textAppearanceHeadline1">@color/light_onSecondary</item>
+        <item name="textAppearanceHeadline2">@color/light_onSecondary</item>
+        <item name="textAppearanceHeadline3">@color/light_onSecondary</item>
+
+        <item name="textAppearanceLabelLarge">@color/light_outlineVariant</item>
+        <item name="textAppearanceLabelMedium">@color/light_outlineVariant</item>
+        <item name="textAppearanceLabelSmall">@color/light_outlineVariant</item>
+        <item name="textAppearanceDisplayLarge">@color/light_onSecondary</item>
+        <item name="textAppearanceDisplayMedium">@color/light_onSecondary</item>
+        <item name="textAppearanceDisplaySmall">@color/light_onSecondary</item>
+        <item name="textAppearanceBody1">@color/light_onSecondary</item>
+    </style>
+
+    <style name="Text.Regular" parent="Theme.ThemeSwitcher.Light">
+        <item name="android:fontFamily">@font/rockoflf_regular</item>
+    </style>
+
+    <style name="Text.Medium" parent="Theme.ThemeSwitcher.Light">
+        <item name="android:fontFamily">@font/rockoflf_medium</item>
+    </style>
+
+    <style name="Text.Bold" parent="Theme.ThemeSwitcher.Light">
+        <item name="android:fontFamily">@font/rockoflf_bold</item>
+    </style>
+
+    <style name="Text.Header1" parent="Text.Bold">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">?attr/textAppearanceHeadline1</item>
+    </style>
+
+    <style name="Text.Header2" parent="Text.Bold">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">?attr/textAppearanceHeadline2</item>
+    </style>
+
+
+    <style name="Text.Header3" parent="Text.Bold">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?attr/textAppearanceHeadline3</item>
+    </style>
+
+    <style name="Text.Header4" parent="Text.Bold">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/textAppearanceHeadline3</item>
+    </style>
+
+    <style name="Text.Body1" parent="Text.Regular">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Body2" parent="Text.Regular">
+        <item name="android:textSize">8sp</item>
+    </style>
+
+    <style name="Text.DisplayLarge" parent="Text.Medium">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?attr/textAppearanceDisplayMedium</item>
+    </style>
+
+    <style name="Text.DisplayMedium" parent="Text.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/textAppearanceDisplaySmall</item>
+    </style>
+
+    <style name="Text.DisplaySmall" parent="Text.Medium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/textAppearanceDisplaySmall</item>
+    </style>
+
+    <style name="Text.LabelLarge" parent="Text.Medium">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?attr/textAppearanceLabelLarge</item>
+    </style>
+
+    <style name="Text.LabelMedium" parent="Text.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/textAppearanceLabelMedium</item>
+    </style>
+
+    <style name="Text.LabelSmall" parent="Text.Medium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/textAppearanceLabelSmall</item>
+    </style>
+
+    <style name="Text.LabelLargePrimary" parent="Text.Bold">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Text.LabelLargeSmall" parent="Text.Bold">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.RMS" parent="Theme.ThemeSwitcher.Light">
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="collapsedTitleStyle" parent="Text.Header2">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="expandedTitleStyle" parent="Text.Header3">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:fontFamily">@font/rockoflf_medium</item>
+    </style>
+
+
+    <style name="Theme.GoogleCalendarSync.Toolbar">
+        <item name="android:textColorSecondary">@android:color/primary_text_dark</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Theme.GoogleCalendarSync.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.GoogleCalendarSync.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.GoogleCalendarSync" parent="Base.Theme.GoogleCalendarSync" />
+
+    <style name="Theme.TertiaryButton" parent="Text.Body1">
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="backgroundTint">?attr/colorPrimaryContainer</item>
+    </style>
+</resources>

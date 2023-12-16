@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:id="@+id/layout"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_color"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/circle"
+        app:tint="@color/alpha_20_purple" />
+    <View
+        android:id="@+id/outline"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:layout_width="24dp"
+        android:background="@drawable/circle_stroked"
+        android:layout_height="24dp"
+        android:src="@drawable/circle"
+        app:tint="@color/alpha_20_purple" />
+
+</FrameLayout>

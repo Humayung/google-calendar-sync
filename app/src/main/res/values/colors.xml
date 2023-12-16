@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="gray_050">#E3E3E3</color>
+    <color name="alpha_20_purple">#337662ED</color>
+    <color name="purple">#7662ed</color>
+
+
+    <color name="light_surface">#FCFBFF</color>
+    <color name="light_secondaryContainer">#595fff</color>
+    <color name="light_onSecondaryContainer">#FFFFFF</color>
+    <color name="light_onSecondary">#1D2024</color>
+    <color name="light_onPrimary">#FCFBFF</color>
+    <color name="light_outlineVariant">#801D2024</color>
+    <color name="light_OnPrimaryContainer">#80FFFFFF</color>
+    <color name="light_onSurface">#80FFFFFF</color>
+    <color name="light_surfaceVariant">#1A000000</color>
+    <color name="light_grey">#9C9C9C</color>
+    <color name="light_primary">#4044c9</color>
+    <color name="light_primaryContainer">#4D4044C9</color>
+    <color name="light_outline">#4D4044C9</color>
+    <color name="light_tertiary">#FFCC3B</color>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:clipToPadding="false"
+        android:clipChildren="false">
+
+       <com.google.android.material.progressindicator.CircularProgressIndicator
+           android:layout_width="70dp"
+           android:layout_height="70dp"
+           app:indicatorSize="70dp"
+           app:trackThickness="8dp"
+           app:indicatorColor="?attr/colorPrimary"
+           android:layout_gravity="center"
+           android:indeterminate="true"/>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:text="Cancel"
+            android:textAlignment="center"
+            android:textColor="?attr/colorOnPrimary" />
+    </LinearLayout>
+
+</layout>

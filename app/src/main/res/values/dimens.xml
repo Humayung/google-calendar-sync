@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<resources>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+    <dimen name="small_rounded_corners">4dp</dimen>
+    <dimen name="medium_rounded_corners">10dp</dimen>
+    <dimen name="large_rounded_corners">20dp</dimen>
+</resources>
